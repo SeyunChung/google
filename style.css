@@ -1,0 +1,148 @@
+body {
+    display: contents;
+}
+
+.navbarLeft {
+    float: left;
+    margin: 20px;
+    font-family: Roboto,arial,sans-serif;
+}
+
+.navbarRight {
+    float: right;
+    margin: 20px;
+    font-family: Roboto,arial,sans-serif;
+}
+
+.nav-itemLeft {
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.nav-itemRight {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.nav-itemLeft:hover {
+    text-decoration: underline;
+}
+
+.nav-itemRight:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.input-area {
+    margin-top: 30px;
+}
+
+.input-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 50px;
+    padding-right: 90px;
+}
+
+.search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+
+.microphone-icon {
+    position: relative;
+    right: 80px;
+}
+
+.camera-icon {
+    position: relative;
+    right: 55px;
+}
+
+.button-area {
+    padding-top: 18px;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    background: #f2f2f2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+}
+
+.footerLeft {
+    color: #70757a;
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+}
+
+.footerLeft:hover {
+    text-decoration: underline;
+}
+
+.footerCenter {
+    color: #70757a;
+   font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px
+}
+
+.footerCenter:hover {
+    text-decoration: underline;
+}
+
+.footerRight {
+    color: #70757a;
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+}
+
+.footerRight:hover {
+    text-decoration: underline;
+}
